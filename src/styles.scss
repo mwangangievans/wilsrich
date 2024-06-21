@@ -1,0 +1,58 @@
+/* Global styles */
+
+/* Body styles */
+.body {
+    font-family: Arial, sans-serif; /* Example font family */
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header styles */
+  .app-header {
+    background-color: #333; /* Example background color */
+    color: #fff; /* Example text color */
+    text-align: center;
+    padding: 10px;
+  }
+  
+  /* Footer styles */
+  .app-footer {
+    background-color: #333; /* Example background color */
+    color: #fff; /* Example text color */
+    text-align: center;
+    padding: 10px;
+  }
+  
+  /* Specific element styles */
+  app-footer p {
+    margin: 5px 0;
+  }
+  .key_value{
+    color: #48b128;
+    font-weight: bold;
+    margin: 0px 20px 0px 20px;
+  }
+  .campus-container {
+    max-width: 100%;
+    padding: 20px;
+  }
+  
+  .mat-form-field {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .address {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+  }
+  .centered-container {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    height: 10vh; /* Adjust height as needed */
+  }
+  
+  

@@ -1,0 +1,8 @@
+/* JSON retrieval */
+
+/* tsconfig.json / after "lib": [] */
+,
+"resolveJsonModule": true
+"allowSyntheticDefaultImports" : true
+
+/* ---------------------------------------------------------------- */

@@ -1,0 +1,43 @@
+ {
+    "a2Personal": {
+        "myFullName": "Richard Wilson",
+        "sheridanID": "991699554",
+        "sheridanLogin": "Wilsrich",
+        "sheridanProgram": "Computer Programming",
+        "sheridanEmail": "wilsrich@sheridancollege.ca"
+    },
+    "myBooks": [
+        {
+            "authorName": "J.K. Rowling",
+            "bookTitle": "Harry Potter and the Sorcerer's Stone",
+            "published": 1997
+        },
+        {
+            "authorName": "George Orwell",
+            "bookTitle": "1984",
+            "published": 1949
+        },
+        {
+            "authorName": "J.R.R. Tolkien",
+            "bookTitle": "The Hobbit",
+            "published": 1937
+        },
+        {
+            "authorName": "Harper Lee",
+            "bookTitle": "To Kill a Mockingbird",
+            "published": 1960
+        },
+        {
+            "authorName": "F. Scott Fitzgerald",
+            "bookTitle": "The Great Gatsby",
+            "published": 1925
+        }
+    ],
+    "campusData": [
+        {
+            "campus": "Davis",
+            "street": "7899 McLaughlin Blvd",
+            "city": "Brampton"
+        }
+    ]
+}

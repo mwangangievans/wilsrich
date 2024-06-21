@@ -1,0 +1,22 @@
+<div class="campus-container">
+    <h2>Campus Information</h2>
+    <div class="centered-container">
+
+        <!-- Mat-select dropdown -->
+        <mat-form-field appearance="fill">
+            <mat-label>Select Campus</mat-label>
+            <mat-select (selectionChange)="onCampusSelectionChange($event)">
+                <mat-option *ngFor="let campus of campusData" [value]="campus">
+                    {{ campus.campus }}
+                </mat-option>
+            </mat-select>
+        </mat-form-field>
+    </div>
+
+
+    <!-- Display selected campus address -->
+    <div class="address" *ngIf="selectedCampus">
+        <p>{{ selectedCampus.street }}</p>
+        <p>{{ selectedCampus.city }}</p>
+    </div>
+</div>

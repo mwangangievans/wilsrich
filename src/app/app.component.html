@@ -1,0 +1,11 @@
+<div class="body">
+  <app-header-wilsrich [personalData]="wilsrichPersonal"></app-header-wilsrich>
+  <mat-tab-group>
+    <mat-tab label="My Book List">
+      <app-books-wilsrich [myBooks]="wilsrichBooks"></app-books-wilsrich>
+    </mat-tab>
+    <mat-tab label="Campus Info"> <app-campus-wilsrich [campusData]="wilsrichCampus"></app-campus-wilsrich>
+    </mat-tab>
+  </mat-tab-group>
+  <app-footer-wilsrich [personalData]="wilsrichPersonal"></app-footer-wilsrich>
+</div>
